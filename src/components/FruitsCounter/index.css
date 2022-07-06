@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bgColor {
+  background-color: #ffd569;
+  padding: 26px;
+}
+.bgWhite {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.kolorText {
+  color: #ffd569;
+}
+
+.img1 {
+  height: 300px;
+  margin: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.button {
+  background-color: #007bff;
+  padding: 6px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+}
